@@ -4,7 +4,7 @@ import java.util.*;
 public class Input_PF {
 	public static void main(String[] args) throws IOException {
 
-		String file = "./input.properties";
+		String file = "c://input.properties";
 		// String file = args[0];
 		Properties p = new Properties();
 		p.load(new FileInputStream(file));
